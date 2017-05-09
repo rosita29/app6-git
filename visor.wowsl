@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>13</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>visor</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>dribbles</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/convex/</ImageTemplate>
+            <ImageTemplateName>Convex</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>J:/ /Rosa Maria/DAM/Parcial3/aplicaciones/app6/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>J:/ /Rosa Maria/DAM/Parcial3/aplicaciones/app6</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#54acd2</TemplateColor>
+            <TemplateFont>Gurajada</TemplateFont>
+            <TemplateName>convex</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>J:/ /Rosa Maria/DAM/Parcial3/aplicaciones/app6/imagenes/negrete.jpg</url>
+                <title>negrete</title>
+                <filesize>77379</filesize>
+            </Image>
+            <Image>
+                <url>J:/ /Rosa Maria/DAM/Parcial3/aplicaciones/app6/imagenes/negrete2.jpg</url>
+                <title>negrete2</title>
+                <filesize>26829</filesize>
+            </Image>
+            <Image>
+                <url>J:/ /Rosa Maria/DAM/Parcial3/aplicaciones/app6/imagenes/porfirio.jpg</url>
+                <title>porfirio</title>
+                <filesize>8106</filesize>
+            </Image>
+            <Image>
+                <url>J:/ /Rosa Maria/DAM/Parcial3/aplicaciones/app6/imagenes/porfirio2.jpg</url>
+                <title>porfirio2</title>
+                <filesize>88128</filesize>
+            </Image>
+            <Image>
+                <url>J:/ /Rosa Maria/DAM/Parcial3/aplicaciones/app6/imagenes/puebla.jpg</url>
+                <title>puebla</title>
+                <filesize>90398</filesize>
+            </Image>
+            <Image>
+                <url>J:/ /Rosa Maria/DAM/Parcial3/aplicaciones/app6/imagenes/puebla2.jpg</url>
+                <title>puebla2</title>
+                <filesize>42491</filesize>
+            </Image>
+            <Image>
+                <url>J:/ /Rosa Maria/DAM/Parcial3/aplicaciones/app6/imagenes/zaragoza.jpg</url>
+                <title>zaragoza</title>
+                <filesize>6473</filesize>
+            </Image>
+            <Image>
+                <url>J:/ /Rosa Maria/DAM/Parcial3/aplicaciones/app6/imagenes/zaragoza2.jpg</url>
+                <title>zaragoza2</title>
+                <filesize>33699</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

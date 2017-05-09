@@ -1,0 +1,330 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cuarta aplicacion móvil</title>
+
+<!-- grupo CSS-->
+<link rel="stylesheet" href="css/tema-app6.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<style type="text/css">
+#apDiv1 {
+	position: absolute;
+	width: 200px;
+	height: 120px;
+	z-index: 1;
+	left: 486px;
+	top: 4628px;
+}
+</style> 
+<!-- grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<script type="text/javascript">
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head> 
+ 
+ 
+ <body onLoad="MM_preloadImages('imagenes/fe.png','imagenes/ro.png','imagenes/3libro.png','imagenes/2libro.png','imagenes/4libro.png','imagenes/5libro.png','imagenes/monumento.jpg','imagenes/monumento3.jpg','imagenes/negrete2.jpg','imagenes/porfirio2.jpg')">
+     
+     <div data-role="page" id="Principal" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+        <h1> Batalla de Puebla </h1>
+      </div>
+      <div data-role="main" class="ui-content"></div>
+      <div>
+      
+        <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+        <li class="ui-first-child ui-last-child">
+           <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2> Batalla 4 mayo</h2>
+              <p>¿Por que da inicio?</p>
+           
+             </a>
+           </li>
+            <li class="ui-first-child ui-last-child">
+             <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2>Batalla del 5 de mayo</h2>
+                <p>¿Por que se originó?</p>
+               
+              
+              </a>
+             </li>
+              <li class="ui-first-child ui-last-child">
+             <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2>Monumentos de la batalla</h2>
+               <p>Muestra algunos acontecimientos</p>
+              </a>
+             </li>
+              <li class="ui-first-child ui-last-child">
+             <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> <h2>Héroes de la batalla </h2>
+             <p>Se mostraran algunos</p>
+              </a>
+             </li>
+              <li class="ui-first-child ui-last-child">
+             <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2>Conmemoracion de la Batalla de Puebla</h2>
+              
+             <p>Homenajes</p>
+              </a>
+             </li>
+            <div data-role="content" align="center">
+<div>
+<div style="width:70%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+<a href="https://es.wikipedia.org/wiki/Batalla_de_Atlixco" data-role="button" id="beep">
+<font size="3" face="castellan">  Información sobre <br>la batalla del 4 de Mayo</font>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="https://webadictos.com/2017/05/04/historia-de-la-batalla-de-puebla-5-mayo/" data-role="button" id="beep">
+<font size="3" face="castellan">Información sobre <br>la batalla del 5 de Mayo</font>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="https://www.turimexico.com/estados-de-la-republica-mexicana/puebla-mexico/monumentos-historicos-en-puebla/" data-role="button" id="beep">
+<font size="3" face="castellan">Museos<br> Historicos de Puebla</font>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="https://www.pdf-archive.com/2016/03/10/pdf-fuertes-de-loreto-y-guadalupe/" data-role="button" id="vibrar">
+<font size="3" face="castellan">Algunos datos curiosos sobre<br>
+ Los fuertes de loreto</font>
+</a> 
+</li>
+</ul>
+</div>
+</div>
+</div>
+  
+        
+           </ul>
+           </div>
+           <!-- Start WOWSlider.com BODY section -->
+           <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/negrete.jpg" alt="negrete" title="negrete" id="wows1_0"/></li>
+		<li><img src="data1/images/negrete2.jpg" alt="negrete2" title="negrete2" id="wows1_1"/></li>
+		<li><img src="data1/images/porfirio.jpg" alt="porfirio" title="porfirio" id="wows1_2"/></li>
+		<li><img src="data1/images/porfirio2.jpg" alt="porfirio2" title="porfirio2" id="wows1_3"/></li>
+		<li><img src="data1/images/puebla.jpg" alt="puebla" title="puebla" id="wows1_4"/></li>
+		<li><img src="data1/images/puebla2.jpg" alt="puebla2" title="puebla2" id="wows1_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/zaragoza.jpg" alt="jquery slideshow" title="zaragoza" id="wows1_6"/></a></li>
+		<li><img src="data1/images/zaragoza2.jpg" alt="zaragoza2" title="zaragoza2" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="negrete"><span><img src="data1/tooltips/negrete.jpg" alt="negrete"/>1</span></a>
+		<a href="#" title="negrete2"><span><img src="data1/tooltips/negrete2.jpg" alt="negrete2"/>2</span></a>
+		<a href="#" title="porfirio"><span><img src="data1/tooltips/porfirio.jpg" alt="porfirio"/>3</span></a>
+		<a href="#" title="porfirio2"><span><img src="data1/tooltips/porfirio2.jpg" alt="porfirio2"/>4</span></a>
+		<a href="#" title="puebla"><span><img src="data1/tooltips/puebla.jpg" alt="puebla"/>5</span></a>
+		<a href="#" title="puebla2"><span><img src="data1/tooltips/puebla2.jpg" alt="puebla2"/>6</span></a>
+		<a href="#" title="zaragoza"><span><img src="data1/tooltips/zaragoza.jpg" alt="zaragoza"/>7</span></a>
+		<a href="#" title="zaragoza2"><span><img src="data1/tooltips/zaragoza2.jpg" alt="zaragoza2"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+           <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            <div> 
+                <img src="res/android/mdpi.png" width="46" height="46">
+            </div>
+            <div>
+               <h4> Aplicación seis </h4>
+               <h4> Rosa Maria Canales Maximiliano </h4>
+            </div>
+           </div>
+           </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+             <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+               <h1>Batalla del 4 de mayo</h1>
+             </div>
+             <div data-role="content" align="center">
+               <div>
+                 <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1>Conmemora Atlixco la batalla del 4 de mayo</h1>
+          <p><a href="https://www.elsoldepuebla.com.mx/estado/conmemora-atlixco-la-batalla-del-4-de-mayo" target="_self">Ver más</a></p>
+          <div><br>
+          </div>
+          <div></div>
+          </div>
+         </div> 
+                 <p>La <strong>Batalla de Atlixco</strong> tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, Mexico, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tómas O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general Jose Maria Cobos y de Leonardo Marquez, compuesta de soldados conservadores mexicanos en apoyo de envío de refuerzos para llevar a cabo la Batalla de Puebla, durante la Segunda Intervencion Francesa en México<a href="https://es.wikipedia.org/wiki/Batalla_de_Atlixco#cite_note-FOOTNOTEGonz.C3.A1lez_Lezama2012107-1"></a></p>
+                 <p>Esta batalla culminó con una victoria republicana y debido a esto el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a las tropas francesas del Conde de Lorenzes en la batalla de Puebla.         </p>
+                 <p>Pero si todos los mexicanos sabemos lo anterior, considero,  en cambio, que sólo muy pocos saben que l a brillante victoria  de aquel dí a pudo ser alcanzada por el general Zaragoza, no  sólo por el valor desplegado por las tropas que tenía bajo su  mando inmediato y por las excelentes y atinadas disposiciones  que dictó en el curso del combate, sino también, y muy particularmente,  porque otras tropas mexicanas, pertenecientes al  mismo Cuerpo de Ejército de Oriente, el dí a 4 anterior obtuvieron  una señalada victoria en las cercanías del pueblo de  Atlixco</p>
+                 <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('comu','','imagenes/atlixco.jpg',1)"><img src="imagenes/atlixco2.jpg" width="199" height="264" id="comu"></a></p>
+         
+         
+               </div>
+              </div> 
+       <div data-role="footer" data-theme="a" data-position="fixed">
+                <h4> Aplicación Seis, RMCM </h4>
+              </div>
+             </div>
+            
+            
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+             <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+               <h1>Batalla del 5 de mayo </h1>
+             </div>
+             <div data-role="content" align="center">
+               <div>
+                  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+          <h1>Datos sobre la batalla del 5 de mayo</h1>
+          <div>
+           
+            <p><a href="http://www.eluniversal.com.mx/articulo/cultura/2017/05/5/seis-datos-sobre-la-batalla-del-5-de-mayo" target="_self">ver más </a></p>
+          
+            
+            <br>
+          </div>
+          <div></div>
+          </div>
+                 </div>
+                  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('oscar','','imagenes/puebla.jpg',1)"><img src="imagenes/puebla2.jpg" width="199" height="264" id="oscar"></a></p>
+                 <p>A principios de 1862, México fue invadido por los franceses. Unos meses antes, en junio de 1861, el Congreso mexicano – a iniciativa del Presidente Benito Juárez – había declarado la suspensión por un lapso de dos años del pago de la deuda internacional, debido a que la economía del país estaba prácticamente en bancarrota a raíz de la Guerra de Reforma (1857-1860).</p>
+                 <p>Aunque Inglaterra, España y Francia protestaron contra la medida, los dos primeros llegaron a un acuerdo con los diplomáticos mexicanos. En cambio, Napoleón III, gobernante de Francia, vio en ésta, la oportunidad de extender su imperio en América y decidió invadir México. En abril de 1862 (con el apoyo de los conservadores) los franceses emprendieron, desde Córdoba, Veracruz, la campaña militar hacia el centro de la República. La primera batalla importante tuvo lugar en Acultzingo, Veracruz, y el siguiente lugar en la ruta a la capital era la ciudad de Puebla.</p>
+                 <p>Este material cuenta con derechos de propiedad intelectual. De no existir previa autorización por escrito de EL UNIVERSAL, Compañía Periodística Nacional S. A. de C. V., queda expresamente prohibida la publicación, retransmisión, distribución, venta, edición y cualquier otro uso de los contenidos (Incluyendo, pero no limitado a, contenido, texto, fotografías, audios, videos y logotipos). Si desea hacer uso de este contenido por favor comuníquese a la Agencia de Noticias de El Universal, al 57091313 extensión 2425. Muchas gracias.Otros generales mexicanos también participaron en la defensa de Puebla como es el caso de  las tropas de Oaxaca dirigidas por <strong>Porfirio Díaz</strong>. El centro de la línea lo defendió <strong>Francisco Lamadrid</strong> con las tropas del Estado de México y San Luis Potosí. La izquierda se apoyó en el cerro de Acueyametepec ubicado en el norte de la ciudad y en cuya cumbre se ubicaban los <strong>Fuertes de Loreto y Guadalupe</strong>, con el general <strong>Miguel Negrete</strong> a la cabeza de la <strong>Segunda División de Infantería</strong>.</p>
+                 <p>El 5 de mayo a las 9:15am aparecen los franceses en el horizonte pero no es sino hasta las 11:15am cuando comienzan las hostilidades anunciándose con un cañonazo desde el <strong>Fuerte de Guadalupe</strong> y acompañado por los repiques de las campanas de la ciudad.</p>
+                 <p>&nbsp; </p>
+                 <p>&nbsp;</p>
+                 <pre>&nbsp;</pre></h2>
+               </div>
+                 </div>
+               <div data-role="footer" data-theme="a" data-position="fixed">
+                 <h4> Aplicación Seis, RMCM</h4>
+               </div>
+                </div>
+              
+              
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+             <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+               <h1>Monumentos de la Batalla</h1>
+             </div>
+             <div data-role="content" align="center">
+               <div>
+                  <div data-role="main" class="ui-content"> </div>
+
+
+
+  <div data-role="main" class="ui-content">
+    
+               <h2><p>PUEBLA Trabajadores del gobierno de Puebla empezaron a desmontar los más de seis mil 700 metros de madera de supuesto origen finlandés que cubrían el Monumento Emblemático por el 150 Aniversario de la Batalla de Puebla, inaugurado hace menos de cinco años por el mandatario Rafael Moreno Valle</p>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/monumento.jpg',1)"><img src="imagenes/monu.jpg" width="264" height="199" id="Image7"></a></p>
+        <p> El Monumento a la Victoria (5 de mayo) fue hecha por el escultor y pintor mexicano Ernesto Tamariz.Recibe su nombre debido a que aquí el ejercito mexicano libró una poderosa batalla contra el ejercito francés, durante la Segunda Intervención Francesa el 5 de mayo de 1862.</p>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/monumento3.jpg',1)"><img src="imagenes/monumento2.jpg" width="264" height="199" id="Image8"></a></p>
+  </div>
+
+<div data-role="main" class="ui-content"> </div>
+               </div>
+               </div>
+               
+             <div data-role="footer" data-theme="a" data-position="fixed">
+              <h4> Aplicación Seis, RMCM </h4>
+              </div>
+              </div>
+             
+             
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+             <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+               <h1> Héroes de la Batalla  </h1>
+             </div>
+             <div data-role="content" align="center">
+               <div>
+                 
+                 <div data-role="main" class="ui-content">
+                      <div data-role="collapsible" data-content-theme="false">
+          <h1>Ver más</h1>
+          <div>
+            
+            <a href="http://foros.monografias.com/showthread.php/60450-Batalla-del-5-de-Mayo" target="_self">ver</a><br>
+          </div>
+          <div></div>
+          </div>
+       </div>
+       
+                 <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('java','','imagenes/zaragoza.jpg',1)"><img src="imagenes/zaragoza2.jpg" width="199" height="264" id="java"></a></p>
+                 <p><strong>Ignacio Zaragoza</strong>, Ministro de Guerra y militar que dirigió el Ejército Mexicano, quienes, acompañados por un grupo de indígenas -conocidos erróneamente como zacapoaxtlas- se rebelaron en las afueras de la ciudad de Puebla contra las tropas francesas, dirigidas por el conde de Lorencez, <strong>Charles Ferdinand Latrille</strong>, durante la Segunda Intervención Francesa en México.</p>
+                 <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/negrete2.jpg',1)"><img src="imagenes/negrete.jpg" width="264" height="199" id="Image9"></a></p>
+                 <p><strong>Miguel Negrete Novoa </strong>fue un general militar<strong> nacido el 8 de mayo de 1824 en Tepeaca, Puebla; es considerado el principal héroe </strong>de la batalla del<strong> 5 de mayo de 1862</strong> después del General Ignacio Zaragoza.</p>
+                 <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/porfirio2.jpg',1)"><img src="imagenes/porfirio.jpg" width="264" height="199" id="Image10"></a></p>
+                 <p> Para este momento, la derecha de la línea de batalla mexicana la cerró Porfirio Díaz con la División de Oaxaca, auxiliado por los escuadrones de Lanceros de Toluca y Oaxaca.Porfirio Díaz acudió en auxilio de los Rifleros de San Luis Potosí, que estaban a punto de ser rodeados.</p>
+<p>&nbsp;</p>
+                
+               </div>
+              </div> 
+            <div data-role="footer" data-theme="a" data-position="fixed">
+              <h4> Aplicación seis, RMCM</h4>
+             </div>
+             </div>
+             
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+             <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+               <h1> Conmemoracion de la Batalla de Puebla </h1>
+             </div>
+             <div data-role="content" align="center">
+               <div>
+                 <div data-role="main" class="ui-content">
+       
+         </div> 
+          
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ABCD','','imagenes/desfile.jpg',1)"><img src="imagenes/desfile2.jpg" name="ABCD" width="199" height="264" id="ABCD"></a>
+ <p>El 5 de mayo representa, sin lugar a duda, una de las fechas más emblemáticas de la historia de nuestro país, pieza clave del orgullo nacional y una de las principales fuentes que nutren el patriotismo mexicano. La ciudad y el estado de Puebla guardan hoy, con orgullo, el recuerdo de haber sido en su territorio donde el ejército mexicano, al mando del general Ignacio Zaragoza, derrotó y detuvo el avance del invasor francés en 1862; reafirmando la soberanía e independencia de México frente al que era, en ese momento, el ejército más poderoso del mundo. Es aquí donde las armas nacionales se han cubierto de gloria. Este material cuenta con derechos de propiedad intelectual. De no existir previa autorización por escrito de EL UNIVERSAL, Compañía Periodística Nacional S. A. de C. V., queda expresamente prohibida la publicación, retransmisión, distribución, venta, edición y cualquier otro uso de los contenidos (Incluyendo, pero no limitado a, contenido, texto, fotografías, audios, videos y logotipos). Si desea hacer uso de este contenido por favor comuníquese a la Agencia de Noticias de El Universal, al 57091313 extensión 2425. Muchas gracias.</p>
+ 
+               </div>
+              </div> 
+       <div data-role="footer" data-theme="a" data-position="fixed">
+                <h4> Aplicación Seis, RMCM </h4>
+              </div>
+             </div>
+            
+             
+ 
+       
+ 
+               
+</body>
+</html>
