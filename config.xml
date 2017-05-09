@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 
 <widget xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
-id = "com.phonegap.example3"
+id = "com.phonegap.example6"
 version ="1.0.0">
 
-<name> app3 BIBLIOGRAFIAPROGRAMACION </name>
+<name> app6 BATALLA DE PUEBLA</name>
 
 <description>
-Aplicación que muestra información sobre la bibliografia del laboratorio de computo 3 
+Aplicación que muestra información sobre la batalla de Puebla
 </description>
 
 <author href="https://build.phonegap.com" email="rosita.canales.cbtis16@gmail.com">
